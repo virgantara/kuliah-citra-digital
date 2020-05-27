@@ -22,14 +22,13 @@ Teman-teman yang telah mengambil mata kuliah Aljabar Linier (AL) masih ingat kan
 </table>
 
 Tenang, tidak perlu panik. Kita bedah rumus pada Persamaan 1 ya. Kita ingat kembali bahwa citra pada dasarnya adalah sebuah matriks 2D. Bayangkan matriks 2D dalam bentuk koordinat spasial kartesian dengan sumbu x dan sumbu y. Oiya, yang perlu diingat adalah adanya perbedaan koordinat sumbu (x,y) pada citra dengan koordinat kartesian. Perbedaannya adalah letak titik 0 (nol). Pada citra digital, titik nol berada di atas (Gambar 1A). Sedangkan kartesian berada di bawah (Gambar 1B). Fungsi f(x,y) pada Pers. 1 adalah fungsi **intensitas** pada tiap titik citra. Satuan titik pada citra digital disebut dengan **piksel** (pixel). Nilai intensitas pada tiap piksel memiliki nilai yang sifatnya **diskrit**. Adapun rentang nilai intensitas ini antara **0 hingga 255**.
-![image info](../images/koordinat_citra.png)   
 
+![image info](../images/koordinat_citra.png)   
 *Gambar 1*. (A) Koordinat Kartesian pada selain citra digital. (B) Koordinat kartesian pada citra digital
 
 Untuk lebih memudahkan pemahaman, kita *crop* sebagian kecil dengan ukuran 5 x 6 piksel dari sebuah citra (Gambar 2A). Kemudian, diilustrasikan besarnya intensitas tiap titik (Gambar 2B).
 
 ![image info](../images/cropping.jpg)   
-
 *Gambar 2*. (A) Citra sampel dalam grayscale. (B) Citra hasil *cropping* dari (A) dengan ukuran 5x6 piksel.
 
 Setiap blok pada Gambar 2B berukuran 1 piksel. Setiap piksel memiliki nilai intensitas. Contoh: pada Gambar 2B titik (0,0) memiliki intesitas sebesar 70. Jika ada citra memiliki koordinat x,y serta nilai intensitas yang terbatas dan diskrit maka disebut sebagai **citra digital**. 
