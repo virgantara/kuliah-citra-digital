@@ -27,7 +27,7 @@ Tenang, tidak perlu panik. Kita bedah rumus pada Persamaan 1 ya. Kita ingat kemb
 
 Untuk lebih memudahkan pemahaman, kita *crop* sebagian kecil dengan ukuran 5 x 6 piksel dari sebuah citra (Gambar 2A). Kemudian, diilustrasikan besarnya intensitas tiap titik (Gambar 2B).
 
-![image info](../images/gray_mapping.jpg)
+![image info](../images/cropping.jpg)
 *Gambar 2*. (A) Citra sampel dalam grayscale. (B) Citra hasil *cropping* dari (A) dengan ukuran 5x6 piksel.
 
 Setiap blok pada Gambar 2B berukuran 1 piksel. Setiap piksel memiliki nilai intensitas. Contoh: pada Gambar 2B titik (0,0) memiliki intesitas sebesar 70. Jika ada citra memiliki koordinat x,y serta nilai intensitas yang terbatas dan diskrit maka disebut sebagai **citra digital**. 
